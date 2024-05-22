@@ -1,0 +1,76 @@
+#element-one {
+    width: 100px;
+    height: 100px;
+    background-color: darkcyan;
+  }
+  
+  #element-two {
+    width: 100px;
+    height: 100px;
+    background-color: firebrick;
+  }
+  
+  #element-three {
+    background-color: darkolivegreen;
+  }
+  
+  #element-four {
+    background-color: chocolate;
+  }
+  
+  .container {
+    width: 400px;
+  }
+  
+  .shape {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+    border-radius: 3px;
+  }
+  
+  .text {
+    display: table;
+    margin: auto;
+    font-size: 50px;
+    font-family: sans-serif;
+    line-height: 100px;
+  }
+  
+  .parent-table {
+      display: table;
+      text-align: center;
+  }
+  
+  .child-table {
+      font-size: 30px;
+      display: table-cell;
+      vertical-align: middle;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .w-95 {
+    width: 95px;
+  }
+  
+  .w-100 {
+    width: 100px;
+  }
+  
+  .box1style {
+    border-radius: 50%;
+  }
+
+  .animation {
+    animation: fadeIn 0.3s ease-out;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+  }
+
+  .animation:hover {
+    transform: rotate(5deg);
+}
